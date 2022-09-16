@@ -1,0 +1,499 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(../Images/leaf-bg.svg);
+}
+  .logo-box img{
+    height: 80px;
+  }
+  .mainimage img{
+    width: 100%;
+  }
+  .mainnav {
+    padding: 20px 0;
+    background:rgb(18, 154, 108);
+    box-shadow: 0 4px 6px rgba(0,0,0,.2);  
+  }
+  .con {
+    padding: 0 20px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .logo-box {
+    float: left;
+    margin-right: 20px;
+  }
+  .logo-box a {
+    outline: none;
+    display: block;
+  }
+  .logo-box img {
+    display: block;
+}
+  nav {
+    overflow: hidden;
+  }
+  .mainnav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+  }
+  nav li {
+    display: inline-block;
+    margin-left: 25px;
+    height: 70px;
+    line-height: 70px;
+    transition: .5s linear;
+  }
+  nav a {
+    text-decoration: none;
+    display: block;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  nav a:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    background: #040303;
+    transition: width .3s linear;  
+  }
+nav a:hover:after{
+    width: 100%;
+}
+.maintext{
+    position: absolute;
+    top: 36%;
+    color: white;
+    text-align: center;
+    width: 100%
+}
+.maintext h1{
+    font-size: 60px;
+}
+.maintext p{
+    font-size: 30px;
+}
+.story{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+}
+.container{
+    display: flex;
+    padding: 3% 2% 6% 0;
+}
+.historyimg img{
+    border: 6px solid whitesmoke;
+    border-radius: 55%;
+    box-shadow: 0 2px 6px black;
+    margin-right: 50px;
+    width: 20%;
+    height: auto;
+    margin: 0 0 0 10%;
+}
+.historytext{
+    text-align: justify;
+    padding: 15px 0 0 30px;
+    font-size: 23px;
+    float: right;
+    width: 65%;
+}
+.work{
+    text-align: center;
+    padding: 15px 0 15px 0;
+    font-size: 30px;
+}
+#work{
+    background-color: rgb(167, 116, 54);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 80%;
+    margin: 1rem auto 0 auto;
+    box-shadow:-7px 7px 0px rgba(0,0,0,0.3);
+}
+#work img{
+    width: 135px
+}
+#work h3{
+    color: rgb(14, 8, 8);
+    justify-content: space-between;
+    padding: 0 0 10px 0;
+    font-weight: bold;
+}
+#work p{
+    color: white;
+    padding: 10px 10px 10px 0;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.bene{
+    font-size: 30px;
+    text-align: center;
+    margin: 3% 0 2% 0;
+}
+.benefits ol{
+    padding: 10px 0 50px 10%;
+    width: 90%;
+    text-align: justify;
+}
+.benefits ol li{
+    padding: 15px;
+    font-size: 22px;
+}
+footer{
+    padding: 40px 0;
+    background-color:rgb(18, 154, 108);
+}
+.social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: black;
+}
+.social a{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+.social a:hover{
+    opacity: 1;
+}
+footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+footer ul li a{
+    color: black;
+    text-decoration: none;
+    opacity: 0.8;
+}
+footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+footer ul li a:hover{
+    opacity: 1;
+}
+footer p{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+}
+.tpheading{
+    text-align: center;
+    margin: 40px 0 40px 0px ;
+}
+.plantations{
+    margin-bottom: 15px;
+}
+
+.plantations section{
+    border-style: groove;
+    box-shadow: 5px 5px 4px 0 rgb(196, 223, 214);
+    background-color: rgb(178, 230, 213);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 80%;
+    margin: 1rem auto 0 auto;
+    border-radius: 20px;
+}
+.start img{
+    width: 100px;
+    height: auto;
+}
+.start p{
+    text-align: justify;
+    padding: 5px 50px 0 0;
+}
+.imageandiframe img{
+    width: 450px;
+    height: auto;
+    margin-bottom: 15px;
+    box-shadow: 7px 7px 5px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+.imageandiframe iframe{
+    width: 450px;
+    height: 60px;
+    border-radius: 10px;
+}
+.types{
+    text-align: center;
+    font-size: 40px;
+    padding: 30px 0 0 30px;
+}
+.table{
+    max-width: 90%;
+    padding: 30px;
+    margin: auto;
+}
+table{
+    font-size: 17px;
+    color: antiquewhite;
+}
+table thead{
+    background-color: rgb(198, 139, 29);
+    color: #fff;
+}
+table thead th{
+    padding: 15px;
+    color: #fff;
+}
+table th,table td{
+    border: 2px solid rgb(3, 4, 4);
+    color: black;
+}
+table td ul{
+    margin: 0 30px 0 25px;
+}
+.row1{
+    font-weight: bold;
+    padding: 0 20px 0 20px;
+}
+.des{
+    padding: 30px 10px 30px 10px;
+}
+table tbody tr td img{
+    display: inline-block;
+    width: 150px;
+    height: auto;
+    margin: 4px 4px 3px 4px;
+}
+.museumimage img{
+    width: 100%;
+    /*height: auto;*/
+}
+.museumcontent{
+    max-width: 80%;
+    margin: 30px 0 0 10%;
+}
+.museumcontent h1{
+    text-align: center;
+}
+.museumcontent img{
+    padding: 20px;
+    border-radius: 30px;
+    width: 33%;
+}
+.museumcontent p{
+    max-width: 100%;
+    text-align: justify;
+    padding: 10px;
+    font-size: 20px;
+}
+.tips{
+    display: flex;
+    border: 2px solid black;
+    width: 60%;
+    margin: 5% 0 5% 20%;
+}
+.tips h1{
+    text-align: center;
+}
+.tips ul{
+    padding: 5% 0 5% 5%;
+}
+.bpheader{
+    text-align: center;
+    margin: 3% 0 3% 0;
+}
+.bptext{
+    text-align: justify;
+    width: 83%;
+    margin: 0 0 5% 8%;
+    font-size: 20px;
+}
+.bycontent{
+    margin: 20px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: 0.4s;
+    background: white;
+    width: 35%;
+}
+.bycontent h2{
+    margin: 0 10px 15px 10px;
+}
+.bycontent h3{
+    margin: 10px 10px 15px 10px;
+}
+.bycontent img{
+    height: 300px;
+    width: auto;
+    padding: 20px;
+}
+.bycontainer{
+    box-sizing: border-box;
+    background: #808e4d86;
+    width: 90%;
+    display: flex;
+    margin: 2% 0 0 5%;
+}
+.bydetails{
+    align-items: center;
+    text-align: justify;
+    justify-content: space-between;
+    width:65%;
+    margin: 2% 7% 0 0;
+}
+.bydetails p{
+    font-size: 21px;
+    padding-bottom: 15px;
+}
+#different{
+    font-weight: bold;
+    font-size: 24px;
+}
+.bydetails ul{
+    padding: 0 0 20px 10%;
+    font-size: 22px;
+}
+.bycontent button{
+    text-align: center;
+    font-size: 15px;
+    color: whitesmoke;
+    width: 60%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    border-radius: 20px;
+}
+.buyproduct{
+    background-color: black;
+}
+.bycontent:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.16);
+    transform: translate(0px, -3px);
+}
+button:hover{
+    transform: translate(0px, 1px);
+}
+.byproducts{
+    padding-bottom: 25px;
+}
+.saleslinks{
+    font-size: 25px;
+    margin: 2% 0 2% 0;
+    text-align: center;
+}
+.donate img{
+    width: 26%;
+    height: 100%;
+    border-radius: 15px;
+    margin: 2% 0 0 5%;
+}
+.donate section{
+    float: right;
+    background-color: gainsboro;
+    height:auto;
+    width: 62%;
+    margin: 2% 5% 0 0;
+    border-radius: 15px;
+}
+.donate{
+    margin: 0 0 3% 0;
+}
+.donate h1{
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+.donate p{
+    text-align: justify;
+    font-size: 20px;
+    padding: 10px;
+    width: 88%;
+    margin-left: 5%;
+}
+.donate section button{
+    text-align: center;
+    font-size: 24px;
+    color: rgb(249, 251, 249);
+    width: 100%;
+    padding: 13px;
+    border: 0;
+    margin-top: 5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.donatenow{
+    background: rgb(21, 97, 14);
+}
+#merch{
+    padding-left: 7%;
+    padding-top: 25px;
+}
+.merchcontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    width: 20%;
+    margin: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: 0.4s;
+    background: white;
+}
+.merchcontent:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.16);
+    transform: translate(0px, -8px);
+}
+.merchcontent img{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.ph3button h3{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(15, 6, 6);
+    margin: 10px;
+}
+.ph3button p{
+    font-size: 20px;
+    padding: 15px 0 15px 0;
+}
+
+ .ph3button button{
+    text-align: center;
+    font-size: 24px;
+    color: whitesmoke;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    margin-top: 5px;
+}
+.buymerch{
+    background: rgb(193, 127, 85);
+}

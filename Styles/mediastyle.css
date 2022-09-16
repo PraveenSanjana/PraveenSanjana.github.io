@@ -1,0 +1,484 @@
+@media screen and (max-width: 660px) {
+    .mainnav {
+        text-align: center;
+    }
+    .logo-box{
+      float: none;
+      display: inline-block;
+      margin: 0 0 16px 0;
+      height: 50px;
+    }
+    .mainnav ul {
+        float: none;
+    }
+    nav li:first-of-type {
+        margin-left: 0;
+    }
+  }
+
+@media screen and (max-width: 810px) {
+    .maintext{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+  nav {
+    overflow: visible;
+ }
+  nav li {
+    display: block;
+    margin: 0;
+    height: 40px;
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .logo-box img{
+    height: 50px;
+  }
+  nav li:hover {
+    background: rgba(0,0,0,.1);
+ }
+  nav a:after {
+    content: none;
+ }
+  .logo-box{
+    height: 20px;
+    margin-bottom: 40px;
+    margin-top: 0;
+  }
+  .mainimage img{
+    width: 100%;
+  }
+  .story{
+    text-align: center;
+    padding-top: 7px 0 12px 0;
+    font-size: 24px;
+  }
+  .container{
+    display: inline-grid;
+  }
+  .historyimg{
+    margin-right: 6%;
+  }
+
+#work{
+    background: rgb(167, 116, 54);
+    display: inline-grid;
+    justify-content: space-between;
+    padding: 40px;
+    width: 90%;
+    margin: 10px 0 0 15px;
+    box-shadow:-5px 5px 5px rgba(0,0,0,0.3);
+}
+#work img{
+    height: 40px;
+    width: auto;
+}
+.work{
+    text-align: center;
+    padding: 10px 0 5px 0;
+    font-size: 20px;
+}
+#work h3{
+    font-size: 15px;
+    margin-top: 0px;
+}
+#work p{
+    font-size: 15px;
+    text-align: justify;
+}
+.passion{
+    height: 100%;
+}
+.bene{
+    padding: 0 0 0 0;
+    text-align: center;
+    font-size: 20px;
+}
+.benefits{
+    display: inline-grid;
+    justify-content: space-between;
+    margin: 10px 0 10px 15px;
+    max-width: 90%;
+}
+.benefits ol{
+    padding: 0 0 0 60px;
+}
+.benefits ol li{
+    font-size: 12px;
+}
+.benefits img{
+    display: none;
+}
+.tpheading{
+    text-align: center;
+    margin: 10px 0 10px 0;
+    font-size: 30px;
+}
+.plantations section{
+    border-style: groove;
+    box-shadow: 5px 5px 4px 0 rgb(196, 223, 214);
+    background-color: rgb(178, 230, 213);
+    display: inline-grid;
+    justify-content: space-between;
+    padding: 10px;
+    width: 80%;
+    margin: 10px auto 0 10%;
+    border-radius: 20px;
+}
+
+.start img{
+    width: 50px;
+    height: auto;
+}
+.start h2{
+    font-size: 16px;
+    text-align: center;
+}
+.start p{
+    text-align: justify;
+    padding: 0 0 0 0;
+    font-size: 12px;
+}
+.imageandiframe{
+    padding: 5% 0 5% 14%;
+}
+.imageandiframe img{
+    margin-bottom: 10px;
+    box-shadow: 7px 7px 5px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+.imageandiframe iframe{
+    border-radius: 10px;
+}
+.types{
+    text-align: center;
+    font-size: 30px;
+}
+.table thead{
+    display: none;
+}
+.table, .table tbody, .table tr, .table td{
+    display: block;
+    width: 100%;
+}
+.table tr{
+    margin-bottom: 15px;
+}
+.table td {
+    text-align: justify;
+    padding-left: 5%;
+    position: relative;
+}
+.table td::before{
+    content: attr(data-label);
+    position: absolute;
+    left: 0%;
+    width: 50%;
+    padding-left: 15px;
+    font-weight: bold;
+    text-align: justify;
+}
+.table img{
+   padding-left: 50px;
+}
+table{
+    font-size: 15px;
+}
+.museumimage img{
+    width: 100%;
+    height: auto;
+}
+.museumcontent h1{
+    font-size: 25px;
+    padding: 0px 0 15px 0;
+}
+.museumcontent img{
+    height: 180px;
+    width: auto;
+    padding: 5px;
+    margin-left: 7%;
+}
+.museumcontent p{
+    font-size: 14px;
+    text-align: justify;
+}
+.tips{
+    display: inline-grid;
+    border: 2px solid black;
+    width: 60%;
+}
+.tips iframe{
+    width: 100px;
+    height: 60px;
+}
+.tips ul{
+    font-size: 15px;
+}
+.bpheader{
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+}
+.bptext{
+    font-size: 15px;
+}
+.bycontainer{
+    display: inline-grid;
+}
+.bycontent{
+    margin: 20px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: 0.4s;
+    background: white;
+    width: 87%;
+
+}
+.bycontent h2{
+    margin: 0 10px 15px 10px;
+    font-size: 15px;
+}
+.bycontent h3{
+    margin: 10px 10px 15px 10px;
+    font-size: 12px;
+}
+.bycontent img{
+    height: 150px;
+    width: auto;
+    padding: 20px;
+}
+.buyproduct{
+    margin-bottom: 7%;
+}
+.bycontent button{
+    text-align: center;
+    font-size: 10px;
+    color: whitesmoke;
+    width: 60%;
+    padding: 10px 0 10px 0;
+    outline: none;
+    border-radius: 20px;
+}
+.bydetails{
+    align-items: center;
+    text-align: justify;
+    justify-content: space-between;
+    width:90%;
+    margin: 2% 7% 0 0;
+}
+.bydetails p{
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+.bydetails ul{
+    padding: 0 0 20px 10%;
+    font-size: 15px;
+}
+.saleslinks{
+    font-size: 17px;
+    text-align: center;
+    margin: 2% 0 2% 0;
+}
+#different{
+    font-weight: bold;
+    font-size: 19px;
+}
+.donate img{
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+    margin: 5% 0 0 5%;
+}
+.donate section{
+    float: none;
+    height:auto;
+    width: 98%;
+    margin: 2% 0 0 1%;
+    border-radius: 15px;
+}
+}
+
+@media screen and (max-width: 1290px) {
+    .historytext{
+        font-size: 20px;
+    }
+    #work p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+        
+        .historytext{
+            font-size: 18px;
+        }
+        .benefits li{
+            font-size: 16px;
+        }
+    }
+
+@media screen and (max-width: 950px) {
+    .historytext{
+        font-size: 15px;
+    }
+    #work img{
+        height: 90px;
+    }
+    .container{
+        display: inline-grid;
+        width: 100%;
+    }
+    .historyimg img{
+        width: 100px;
+        height: auto;
+        margin: 0 0 0 40%;
+      }
+      .historytext{
+        text-align: justify;
+        margin: 0 0 0 10%;
+        font-size: 15px;
+        width: 100%
+      }
+      .tpheading{
+        text-align: center;
+        margin: 10px 0 10px 0;
+        font-size: 30px;
+    }
+    .plantations section{
+        border-style: groove;
+        box-shadow: 5px 5px 4px 0 rgb(196, 223, 214);
+        background-color: rgb(178, 230, 213);
+        display: inline-grid;
+        justify-content: space-between;
+        padding: 10px;
+        width: 80%;
+        margin: 10px auto 0 10%;
+        border-radius: 20px;
+    }
+    
+    .start img{
+        width: 50px;
+        height: auto;
+    }
+    .start h2{
+        font-size: 16px;
+        text-align: center;
+    }
+    .start p{
+        text-align: justify;
+        padding: 0 0 0 0;
+        font-size: 15px;
+    }
+    .imageandiframe{
+        padding: 5% 0 5% 14%;
+        width: 100%;
+    }
+    .imageandiframe img{
+        width: 85%;
+        margin-bottom: 10px;
+        margin-right: 20px;
+        box-shadow: 7px 7px 5px rgba(0,0,0,0.3);
+        border-radius: 10px;
+    }
+    .imageandiframe iframe{
+        width: 85%;
+        height: 40px;
+        border-radius: 10px;
+    }
+    table{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .tips ul{
+        font-size: 15px;
+        padding-right: 10px;
+    }
+    .tips iframe{
+        width: 100px;
+        height: 100%;
+    }
+    .tips h1{
+        font-size: 16px;
+    }
+    .bydetails ul li{
+        font-size: 15px;
+    }
+    .bycontent img{
+       height: 150px;
+       width: auto;
+    }
+}
+
+@media screen and (max-width: 1511px){
+    .donate p{
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 1440px){
+    .donate{
+        display: inline-grid;
+    }
+    .donate img{
+        margin: 2% 0 2% 35% ;
+        width: 30%;
+        height: auto;
+    }
+    .donate section{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 948px){
+    .merchcontent{
+        width: 25%;
+    }
+    .ph3button h3{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 550px){
+.merchcontent{
+    width: 40%;
+    margin: 0 20px 15px 3px;
+    display: inline-block;
+}
+.ph3button h3{
+    font-size: 15px;
+}
+.ph3button p{
+    font-size: 15px;
+    padding: 15px 0 15px 0;
+}
+.ph3button img{
+    width: 90px;
+}
+.ph3button button{
+    font-size: 13px;
+    padding: 6px;
+    margin-top: 0px;
+}
+.donate h1{
+    font-size: 20px;
+}
+.donate p{
+    font-size: 14px;
+}
+.donate img{
+    width: 70%;
+    height: auto;
+    margin: 2% 0 2% 15% ;
+}
+}
+
+
+
