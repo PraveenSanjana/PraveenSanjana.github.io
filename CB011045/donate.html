@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="This is a website about the tea industry in sri lanka">
+        <title>Donate</title>
+       <!-- <link rel="Stylesheet" href="Styles/Style.css">-->
+        <link rel="Stylesheet" href="Styles/mediastyle.css">
+        <link rel="Stylesheet" href="Styles/normalize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="Stylesheet" href="Styles/donate.css"> 
+    </head>
+<body>
+
+<div class="mainnav">
+    <div class="con">
+        <div class="logo-box">
+            <a href="index.html"><img src="Images/logo.png"></a>
+        </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="TPlantations.html">Tea Plantations</a></li>
+                    <li><a href="T.Museum.html">Tea Museum</a></li>
+                    <li><a href="Byproducts.html">By products</a></li>
+                    <li><a href="Teasales1.html">Our Teas 1</a></li>
+                    <li><a href="Teasales2.html">Our Teas 2</a></li>
+                    <li><a href="Purchase,Donate.html">Purchase and Donate</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+<body>
+        <div class="donationpaymentcontainer">
+          <form id="form">
+              <div class="col">
+                <label for="fname" >Full Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Praveen Sanjana" required>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="praveensanjana@gmail.com" required>
+                <label for="adr">Address</label>
+                <input type="text" id="adr" name="address" placeholder="123, Lake street, Colombo" required>
+              </div>
+              <div class="donationamount">
+                  <h3>Select Donation Amount</h3>
+                      <p>
+                          <input type="radio" id="100" name="amount" value="100">
+                          <label for="100">LKR 100</label> 
+                      </p>
+                      <p>
+                          <input type="radio" id="500" name="amount" value="500" checked> 
+                          <label for="500">LKR 500</label>
+                      </p> 
+                      <p>
+                          <input type="radio" id="1000" name="amount" value="1000">
+                          <label for="1000">LKR 1,000</label> 
+                      </p>
+                      <p>
+                          <input type="radio" id="2000" name="amount" value="2000">
+                          <label for="2000">LKR 2,000</label> 
+                      </p>
+                      <p>
+                          <input type="radio" id="5000" name="amount" value="5000"> 
+                          <label for="5000">LKR 5,000</label>
+                      </p> 
+                      <p>
+                          <input type="radio" id="10000" name="amount" value="10000">
+                          <label for="10000">LKR 10,000</label> 
+                      </p>
+              </div>
+              
+    
+              <div class="col">
+                <h3>Payment</h3>
+                <label for="cname">Name on Card</label>
+                <input type="text" id="cname" name="cardname" placeholder="Praveen Sanjana" required>
+                <label for="ccnum">Credit card number</label>
+                <input type="number" id="ccnum" name="cardnumber" placeholder="1111 2222 3333 4444" required>
+                <label for="expmonth">Exp Month</label>
+                <input type="number" id="expmonth" name="expmonth" placeholder="03" max="12" required>
+                <label for="expyear">Exp Year</label>
+                <input type="number" id="expyear" name="expyear" placeholder="2024" required>
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="123" required.>
+              </div>
+              <input type="submit" value="Donate" class="donatebtn" onclick="donate()">
+          </form>
+      </div>
+      <script src="Js/donate.js"></script>
+  </body>
+      </html>
+    
+</body>
+</html>
