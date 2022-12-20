@@ -438,9 +438,12 @@ button:hover{
     margin-top: 5px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    text-decoration: none;
+    background-color: #04AA6D;
 }
-.donatenow{
-    background: rgb(21, 97, 14);
+.donatenow a{
+    text-decoration: none;
+    color: rgb(249, 251, 249);
 }
 #merch{
     padding-left: 7%;
@@ -496,4 +499,26 @@ button:hover{
 }
 .buymerch{
     background: rgb(193, 127, 85);
+}
+.visitmuseum{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+#booknow{
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 3% 0 3% 40%;
+  border: none;
+  width: 20%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+#booknow a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
 }
